@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet Input</title>
+    <script src="input.js"></script> 
+    <style>
+        .tweet-input {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            width: 300px;
+        }
+
+        .tweet-button {
+            background-color: #1da1f2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .tweet-output {
+        margin-top: 20px;    
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="tweet-input" class="tweet-input" placeholder="What's happening?">
+        <button onclick="submitTweet()" class="tweet-button">Tweet</button>
+    </div>
+    <p id="tweet-output" class="tweet-output"></p>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>

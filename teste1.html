@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home / X</title>
+    <link rel="stylesheet" href="teste1.css">
+    <script src="index.js"></script> 
+</head>
+<body>
+   <div class="body">
+<!------------------ left part stars------------------>
+ <div class="left">
+    <div class="buttons-left">
+        <button class="button-icon" id="Logo-top">
+            <img src="img/x.png" height="33px">
+        </button> 
+        <button class="left-buttons" id="Home">
+            <img src="img/home.png" height="30px">
+                <h7 class="h7-text"><b>Home</b></h7>
+        </button> 
+        <button class="left-buttons" id="Explore">
+            <img src="img/search.png" height="30px">
+                <h7 class="h7-text">Explore</h7>
+        </button> 
+        <button class="left-buttons" id="Notifications">
+            <img src="img/notification.png" height="30px">
+                <h7 class="h7-text">Notifications</h7>
+        </button> 
+        <button class="left-buttons" id="Messages">
+            <img src="img/messages.png" height="30px">
+                <h7 class="h7-text">Messages</h7>
+        </button> 
+        <button class="left-buttons" id="lists">
+            <img src="img/lists.png" height="30px">
+                <h7 class="h7-text">Lists</h7>
+        </button> 
+        <button class="left-buttons" id="Bookmarks">
+            <img src="img/bookmarks.png" height="30px">
+                <h7 class="h7-text">Bookmarks</h7>
+        </button> 
+        <button class="left-buttons" id="Communities">
+            <img src="img/communities.png" height="30px">
+                <h7 class="h7-text">Communities</h7>
+        </button> 
+        <button class="left-buttons" id="Premium">
+            <img src="img/x.png" height="30px">
+                <h7 class="h7-text">Premium</h7>
+        </button> 
+        <button class="left-buttons" id="Profile">
+            <img src="img/profile.png" height="30px">
+                <h7 class="h7-text">Profile</h7>
+        </button> 
+        <button class="left-buttons" id="More">
+            <img src="img/more.png" height="30px">
+                <h7 class="h7-text">More</h7>
+        </button> 
+
+        <button class="left-button-post" id="Post">
+            <h7 class="h7-text-post"><b>Post</b></h7>
+        </button>
+    </div> 
+
+    <div class="left-bottom">
+        <button class="left-bottom-button">
+            <div class="left-bottom-button-icon">
+                <img src="img/profile-pic.jpg">
+            </div>
+
+            <div class="left-bottom-button-center">
+            <p>
+                <p class="left-bottom-button-center-name"><b>Carina Vieira</b></p>
+                <p class="left-bottom-button-center-tag">@carinaviru.s</p>
+            </p>
+            </div>
+
+            <div class="left-bottom-button-more">
+                <img src="img/more2.png" height="15px">
+            </div>
+        </button>
+    </div>
+</div>
+<!------------------ left part ends------------------>
+<!------------------ middle part stars------------------>
+<div class="middle">
+    <div class="middle-top">
+        <div class="middle-foryou">
+            <button class="foryou-button">
+                    <h7 class="h7-text-middle"><b>For you</b></h7>
+            </button>
+        </div>
+
+        <div class="middle-following">
+            <button class="following-button">
+                <h7 class="h7-text-middle"><b>Following</b></h7>
+            </button>
+        </div>
+
+        <div class="timeline-settings">
+            <button class="settings">
+                <img src="img/settings.png" height="20px"> 
+            </button>
+        </div>
+    </div>
+
+    <div class="middle-box">
+        <div class="middle-box-icon">
+            <img src="img/profile-pic.jpg">
+        </div>
+
+        <div class="whatshappening">
+            <input type="text" id="tweet-input" placeholder="What is happening?!">
+        </div>
+    </div>
+
+    <div class="middle-buttons-box">
+        <div class="little-buttons">
+            <button class="middle-buttons">
+                <img src="img/media.png" class="img-buttons-buttons">
+            </button>
+            <button class="middle-buttons">
+                <img src="img/gif.png">
+            </button>
+            <button class="middle-buttons">
+                <img src="img/poll.png">
+            </button>
+            <button class="middle-buttons">
+                <img src="img/emoji.png">
+            </button>
+            <button class="middle-buttons">
+                <img src="img/schedule.png">
+            </button>
+            <button class="middle-buttons">
+                <img src="img/location.png">
+            </button>
+        </div>
+
+        <button onclick="submitTweet()"class="middle-button-post">
+            <h7 class="h7-text-post"><b>Post</b></h7>
+        </button>
+    </div>
+
+    <div class="middle-post">
+        <div id="tweet-output" class="tweet-output">
+            <div class="profile-middle-post-text">
+            
+            <img src="img/profile-pic.jpg" class="profile-middle">
+            <div class="post">
+                <h5 class="h5-middle-post-text">Carina Vieira</h5> 
+                <p class="middle-user-post">@carinaviru.s - 1h</p>
+                <p class="actual-post">hi guys, this is my first post!</p>
+
+                <div class="middle-post-reaction-buttons">
+                    <button class="buttons-reaction-comments">
+                        <img src="img/comments-gray.png" height="20px" width="20px">
+                    </button>
+                    <button class="buttons-reaction-retweet">
+                        <img src="img/retweet-gray.png" height="20px" width="20px">
+                    </button>
+                    <button class="buttons-reaction-heart">
+                        <img src="img/heart-gray.png" height="20px" width="20px">
+                    </button>
+                    <button class="buttons-reaction-chart">
+                        <img src="img/chart-gray.png" height="20px" width="20px">
+                    </button>
+                    <button class="buttons-reaction-save">
+                        <img src="img/save-gray.png" height="20px" width="20px">
+                    </button>
+                    <button class="buttons-reaction-share">
+                        <img src="img/share-gray.png" height="20px" width="20px">
+                    </button>    
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>    
+</div>
+<!------------------ middle part ends------------------>
+<!------------------ right part stars------------------>
+<div class="right">
+    <div class="right-box-search">
+        <img src="img/search.png">
+            <input type="text" placeholder="Search">
+    </div>
+
+    <div class="right-box-subs">
+        <div class="middle-title">
+            <h7 class="h7-text-title-right">
+                <b>Subscribe to Premium</b>
+            </h7>
+        </div>
+        <p class="p-text-subs">
+            Subscribe to unlock new features and if <br>
+            eligible, receive a share of ads revenue.
+        </p>
+        <button class="right-button-subscribe">
+            <h7 class="right-subscribe-text">
+                <b>Subscribe</b>
+            </h7>
+        </button>
+    </div>
+
+    <div class="right-box-follow">
+        <div class="middle-title">
+            <h7 class="h7-text-title-right">
+                <b>Who to follow</b>
+            </h7>
+        </div>
+
+        <div class="right-who-division">
+            <button class="right-follow-button">
+                <h6 class="h6-right-follow-button-text">Follow</h6>
+            </button>
+        </div>
+
+        <div class="right-who-division">
+            <button class="right-follow-button">
+                <h6 class="h6-right-follow-button-text">Follow</h6>
+            </button>
+        </div>
+
+        <div class="right-who-division">
+            <button class="right-follow-button">
+                <h6 class="h6-right-follow-button-text">Follow</h6>
+            </button>
+            <p class="show-more-follow">Show more</p>
+        </div>                        
+    </div>
+
+    <div class="right-box-trends">
+        <h7 class="h7-text-title-trends-right">
+            <b>Czechia trends</b>
+        </h7>
+
+        <div class="trends-buttons">
+            <button class="right-trend-button">
+                <p class="trends-trending">1·Trending</p>
+                <h3 class="trends-hastag">#CryptoArt</h3>
+                <p class="trends-posts">2,144 post</p>
+            </button>
+
+            <button class="right-trend-button">
+                <p class="trends-trending">2·Trending</p>
+                <h3 class="trends-hastag">Star Wars</h3>
+                <p class="trends-posts">76.5K post</p>
+            </button>
+
+            <button class="right-trend-button">
+                <p class="trends-trending">3·Trending</p>
+                <h3 class="trends-hastag">Cardano</h3>
+                <p class="trends-posts">22.1K post</p>
+                </button>
+
+            <p class="show-more-trends">Show more</p>
+        </div>
+    </div>
+</div>
+<!------------------ right part ends------------------>
+</body>
+</html>
